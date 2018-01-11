@@ -451,7 +451,29 @@
 		right: 24px;
 		background-size: cover;
 	}
+	.fancybox-close {
+		width: 14px;
+    height: 14px;
+    top: 0;
+    right: -30px;
+    background-size: cover;
+	}
 	.fancybox-next {
-    right: 60px;
+    right: -100px;
+	}
+	.fancybox-prev {
+		left: -100px;
+	}
+	.fancybox-next span {
+		right: 25px;
+		background-size: cover;
+	}
+	.fancybox-prev span {
+		left: 25px;
+		background-size: cover;
+	}
+	.fancybox-nav span {
+		width: 13px;
+    height: 22px;
 	}
 }
