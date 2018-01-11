@@ -76,9 +76,17 @@ $(document).ready(function () {
 
     //fancybox
     $('a.fancybox').fancybox({
-			
-		
-			
+        closeBtn: true,
+        padding: [20, 20, 18, 20],
+        helpers: {
+            overlay: {
+                css: {
+                    'background': 'rgba(51,51,51,0.8)'
+                },
+
+            },
+            title: { type : 'inside' },
+        }
     });
 		
 		//fancybox form
@@ -98,6 +106,7 @@ $(document).ready(function () {
 		//Вызов мобильного меню
 		$(".open-mobile-menu").click(function() {
 			$(".nav-wrapper-mobile").slideToggle();
+			$('.header').toggleClass('header_dark');
 			$('.header').toggleClass('menu-open');
 		});
 
