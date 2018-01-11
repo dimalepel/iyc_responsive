@@ -77,6 +77,7 @@ $(document).ready(function () {
     //fancybox
     $('a.fancybox').fancybox({
 			closeBtn: true,
+			type: 'image',
 			padding: [20, 20, 18, 20],
 			helpers: {
 				overlay: {
