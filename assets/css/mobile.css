@@ -462,6 +462,12 @@
 	.developer img {
     float: right;
 	}
+	/* - - - modal-form - - - */
+	.g-modal-win {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+	}
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0by5jc3MifQ== */
