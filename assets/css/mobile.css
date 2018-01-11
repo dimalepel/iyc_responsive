@@ -126,6 +126,9 @@
 	.menu-open .open-mobile-menu {
 		background: url(../images/menu-close.png) center no-repeat;
 	}
+	.header.menu-open {
+		background-color: rgba(3, 3, 3, 0.9);
+	}
 	/* - - - main-slider - - - */
 	.main-slider__el-title {
 		font-size: 24px;

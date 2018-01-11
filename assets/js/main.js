@@ -235,7 +235,7 @@ function toUp(topPosition, btn) {
  * @param target string, target class or id
  * @param addClassName string
  */
- if(document.documentElement.clientWidth > 768) {
+
 	function classAfterScroll(scroll, target, addClassName) {
 			var targetClass = document.querySelector(target);
 
@@ -249,7 +249,7 @@ function toUp(topPosition, btn) {
 
 			window.addEventListener('scroll', scrollWindow);
 	}
- }
+
 
 /**
  * sum all inner heights
