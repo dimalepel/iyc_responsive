@@ -476,4 +476,59 @@
 		width: 13px;
     height: 22px;
 	}
+	/* - - - - - - Услуги разводящая - - - - - - */
+	/* - - - page-top - - - */
+	.page-top {
+    height: 157px;
+		background-size: cover !important;
+	}
+	.page-top img  {
+		display: none;
+	}
+	.page-top-overlay {
+    padding-top: 60px;
+	}
+	.breadcrumbs {
+    margin-bottom: 5px;
+	}
+	.breadcrumbs__list {
+		margin-bottom: 0;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h1:after {
+		width: 30px;
+		bottom: -7px;
+	}
+	/* - - - page-content - - - */
+	.page-content {
+		padding-top: 50px;
+		padding-bottom: 34px;
+	}
+	/* - - - service-wrap - - - */
+	.service {
+		margin-left: -10px;
+    margin-right: -10px;
+	}
+	.service__el {
+		display: block;
+		margin-left: 0;
+    margin-bottom: 20px;
+		width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+	}
+	.service__el-overlay {
+		padding-top: 40px;
+	}
+	.service__title {
+		margin-bottom: 25px;
+		font-size: 18px;
+	}
+	/* - - - seo-text - - - */
+	.seo-text {
+    padding-top: 25px;
+	}
 }

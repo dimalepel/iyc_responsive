@@ -468,6 +468,61 @@
     padding-left: 15px;
     width: 100%;
 	}
+	/* - - - - - - Услуги разводящая - - - - - - */
+	/* - - - page-top - - - */
+	.page-top {
+    height: 130px;
+	}
+	.breadcrumbs {
+		display: none;
+	}
+	h1 {
+		font-size: 16px;
+	}
+	h1:after {
+		bottom: -3px;
+		width: 22px;
+	}
+	.page-top-overlay {
+    padding-top: 73px;
+	}
+	/* - - - page-content - - - */
+	.page-content {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+	/* - - - service-wrap - - - */
+	.service {
+    margin-left: 0;
+    margin-right: 0;
+		margin-bottom: 0;
+	}
+	.service__title {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.service__el-overlay {
+		padding-top: 25px;
+	}
+	.service__el {
+		width: 100%;
+    float: none;
+    padding-right: 0;
+    padding-left: 0;
+		margin-bottom: 15px;
+	}
+	.service__el:last-of-type {
+		margin-bottom: 0;
+	}
+	/* - - - seo-text - - - */
+	.seo-text h2 {
+    padding-left: 0;
+    font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.seo-text {
+    padding-top: 34px;
+	}
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0by5jc3MifQ== */
