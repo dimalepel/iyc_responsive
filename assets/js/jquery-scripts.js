@@ -77,7 +77,6 @@ $(document).ready(function () {
     //fancybox
     $('a.fancybox').fancybox({
 			closeBtn: true,
-			type    : 'image',
 			width   : '100%',
 			height  : '100%',
 			padding: [20, 20, 18, 20],
