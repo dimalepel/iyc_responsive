@@ -1,3 +1,3 @@
 # iyc_responsive
 
-Главная страница: https://dimalepel.github.io/iyc_responsive/index-page.html д п м
+Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°: https://dimalepel.github.io/iyc_responsive/index-page.html Рґ Рї Рј
