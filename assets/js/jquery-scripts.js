@@ -77,7 +77,9 @@ $(document).ready(function () {
     //fancybox
     $('a.fancybox').fancybox({
 			closeBtn: true,
-			type: 'image',
+			type    : 'html',
+			width   : '100%',
+			height  : '100%',
 			padding: [20, 20, 18, 20],
 			helpers: {
 				overlay: {
@@ -106,7 +108,6 @@ $(document).ready(function () {
 		//Вызов мобильного меню
 		$(".open-mobile-menu").click(function() {
 			$(".nav-wrapper-mobile").slideToggle();
-			$('.header').toggleClass('header_dark');
 			$('.header').toggleClass('menu-open');
 		});
 
