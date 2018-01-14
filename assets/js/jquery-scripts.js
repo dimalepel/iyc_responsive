@@ -28,24 +28,20 @@ $(document).ready(function () {
         prevArrow: '<div class="photo-gallery-slider__prev"></div>',
         arrows: true
 			});
-		}
-		
-		if((document.documentElement.clientWidth < 1200) && (document.documentElement.clientWidth > 768)) {
-			$('.photo-gallery-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        rows: 2,
-        nextArrow: '<div class="photo-gallery-slider__next"></div>',
-        prevArrow: '<div class="photo-gallery-slider__prev"></div>',
-        arrows: true
-			});
-		}
-		
-		if(document.documentElement.clientWidth <= 768) {
+		} else if (document.documentElement.clientWidth <= 768){
 			$('.photo-gallery-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         rows: 3,
+        nextArrow: '<div class="photo-gallery-slider__next"></div>',
+        prevArrow: '<div class="photo-gallery-slider__prev"></div>',
+        arrows: true
+			});
+		} else {
+			$('.photo-gallery-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        rows: 2,
         nextArrow: '<div class="photo-gallery-slider__next"></div>',
         prevArrow: '<div class="photo-gallery-slider__prev"></div>',
         arrows: true
@@ -58,9 +54,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false
 			});
-		}    
-		
-		if(document.documentElement.clientWidth <= 768) {
+		} else {
 			$('.cost-learning-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -85,9 +79,7 @@ $(document).ready(function () {
         prevArrow: '<div class="our-service-slider__prev"></div>',
         arrows: true
 			});
-		}    
-		
-		if(document.documentElement.clientWidth <= 768) {
+		} else {
 			$('.other-services-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -96,7 +88,7 @@ $(document).ready(function () {
         prevArrow: '<div class="our-service-slider__prev"></div>',
         arrows: true
 			});
-		}
+		}  
 
     //fancybox
     $('a.fancybox').fancybox({

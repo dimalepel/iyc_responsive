@@ -1084,6 +1084,46 @@
     margin-top: 27px;
     margin-bottom: 16px;
 	}
+	/* - - - - - - О компании - - - - - - */
+	/* - - - about - - - */
+	.about-promo {
+		margin-bottom: 18px;
+    display: block;
+	}
+	.about__logo {
+		display: block;
+    border-radius: 5px 5px 0 0;
+    padding: 35px 0;
+	}
+	.about__logo img {
+		display: block;
+    max-width: 178px;
+    margin: 0 auto;
+	}
+	.about__txt {
+		padding: 19px 10px 20px 15px;
+    border-radius: 0 0 5px 5px;
+	}
+	.about p {
+		margin-bottom: 11px;
+	}
+	.about__txt p {
+		margin-bottom: 10px;
+	}
+	/* - - - photo-gallery - - - */
+	.about + .photo-gallery {
+		padding-top: 28px;
+	}
+	.about + .photo-gallery h2 {
+		font-size: 18px;
+	}
+	/* - - - - - - Сотрудники - - - - - - */
+	/* - - - our-instructors - - - */
+	.our-instructors h2 {
+		padding-left: 0;
+    font-size: 18px;
+		margin-bottom: 12px;
+	}
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0by5jc3MifQ== */

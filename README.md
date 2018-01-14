@@ -1,5 +1,15 @@
 # iyc_responsive
 
+/* - - - Легенда: - - - */
+
+<b>д</b> - десктоп (настольная версия)
+
+<b>п</b> - планшетная версия 
+
+<b>м</b> - мобильная версия
+
+/* - - - - - - - - - - - */
+
 Главная страница: https://dimalepel.github.io/iyc_responsive/index-page.html д п м
 
 Услуги (разводящая): https://dimalepel.github.io/iyc_responsive/services.html д п м
@@ -15,3 +25,7 @@
 Мероприятия: https://dimalepel.github.io/iyc_responsive/events.html д п м
 
 Мероприятия (подробнее): https://dimalepel.github.io/iyc_responsive/events-more.html д п м
+
+О компании: https://dimalepel.github.io/iyc_responsive/about.html д п м
+
+Сотрудники: https://dimalepel.github.io/iyc_responsive/about.html д п м

@@ -972,4 +972,43 @@
 		height: 25px;
 		top: -1px;
 	}
+	/* - - - - - - О компании - - - - - - */
+	/* - - - about - - - */
+	.about-promo {
+		margin-bottom: 23px;
+	}
+	.about__logo {
+		align-items: center;
+    display: flex;
+    flex-basis: 31.333333%;
+		padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	.about__txt {
+		padding: 25px 20px;
+	}
+	.about p {
+		font-size: 14px;
+		line-height: 21px;
+    margin-bottom: 14px;
+	}
+	.about__txt p {
+		line-height: 20px;
+    margin-bottom: 9px;
+	}
+	/* - - - - - - Сотрудники - - - - - - */
+	/* - - - our-instructors - - - */
+	.our-instructors {
+		margin-top: -6px;
+		padding-bottom: 29px;
+	}
+	.our-instructors h2 {
+		margin-bottom: 17px;
+	}
+	.our-instructors + .our-instructors {
+    padding-top: 7px;
+	}
+	.our-instructors + .our-instructors .employers-wrap {
+    margin-top: 8px !important;
+	}
 }
