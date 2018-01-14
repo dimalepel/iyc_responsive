@@ -1011,4 +1011,19 @@
 	.our-instructors + .our-instructors .employers-wrap {
     margin-top: 8px !important;
 	}
+	/* - - - - - - Часто задаваемые вопросы - - - - - - */
+	/* - - - faqs - - - */
+	.faqs {
+		margin-top: -6px;
+	}
+	.faqs .questions-wrap {
+		margin-top: 37px;
+	}
+	.faqs p {
+		font-size: 14px;
+    line-height: 21px;
+	}
+	.faqs .question__title {
+		font-size: 14px;
+	}
 }

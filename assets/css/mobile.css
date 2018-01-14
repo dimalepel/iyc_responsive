@@ -1124,6 +1124,27 @@
     font-size: 18px;
 		margin-bottom: 12px;
 	}
+	/* - - - - - - Часто задаваемые вопросы - - - - - - */
+	/* - - - faqs - - - */
+	.faqs {
+    padding-bottom: 40px;
+	}
+	.faqs h2 {
+		padding-left: 0;
+    font-size: 18px;
+		margin-bottom: 12px;
+		text-align: center;
+	}
+	.faqs .questions-wrap {
+    margin-top: 20px;
+	}
+	.faqs .question__title:after {
+		top: 18px;
+    right: 15px;
+    width: 9px;
+    height: 11px;
+    background-size: contain;
+	}
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0by5jc3MifQ== */
