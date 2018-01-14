@@ -2446,7 +2446,7 @@ a.breadcrumbs__link:after {
   -ms-flex-align: start;
   align-items: flex-start;
 }
-.card-inner > img {
+.card-inner .card-picture > img {
   margin-right: 30px;
 }
 .card__description {
@@ -3053,6 +3053,22 @@ a.breadcrumbs__link:after {
 	align-items: center;
 }
 .open-mobile-menu {
+	display: none;
+}
+.employers__contacts .employers__person-name,
+.employers__contacts .employers__person-title {
+	display: none;
+}
+.consultant__img .consultant__social {
+	display: none;
+}
+.js-filter-open {
+	display: none;
+}
+.card-picture .card__consultation {
+	display: none;
+}
+.card-picture .card__title {
 	display: none;
 }
 

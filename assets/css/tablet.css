@@ -531,4 +531,445 @@
 	.seo-text {
     padding-top: 25px;
 	}
+	/* - - - - - - Обучение - - - - - - */
+	/* - - - help - - - */
+	.help {
+    padding-bottom: 40px;
+	}
+	.help__banner {
+		width: 231px;
+    padding: 33px 26px 30px 26px;
+    height: 321px;
+	}
+	.help-banner__info {
+		font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 14px;
+	}
+	.help-banner__lnk {
+		font-size: 13px;
+    height: 36px;
+    line-height: 31px;
+    display: block;
+		font-weight: 400;
+	}
+	.help__img {
+		height: 321px;
+    width: 479px;
+	}
+	.help__img img {
+		width: 853px;
+    max-width: initial;
+    margin-left: -35%;
+	}
+	.help-advantage {
+		padding-top: 40px;
+    padding-bottom: 30px;
+	}
+	.help-advantage__el {
+		font-size: 13px;
+	}
+	.help-advantage__el img {
+    margin-bottom: 12px;
+    max-width: 60px;
+	}
+	.help p {
+		font-size: 14px;
+    line-height: 21px;
+		margin-bottom: 5px;
+	} 
+	/* - - - cost-learning - - - */
+	.cost-learning {
+		padding-top: 45px;
+		padding-bottom: 84px;
+	}
+	.page-content h2:after {
+		top: 6px;
+    width: 25px;
+    height: 15px;
+    left: -6px;
+    background-size: cover;
+	}
+	.cost-learning-slider {
+		margin-top: 22px;
+	}
+	.cost-learning-slider__el {
+		padding-right: 10px;
+    padding-left: 20px;
+	}
+	.cost-learning-slider__el-img {
+		height: 102px;
+	}
+	.cost-learning-slider__el-img img {
+		max-width: 50px;
+	}
+	.cost-learning-slider__title {
+		margin-bottom: 11px;
+	}
+	.cost-learning-slider__el li {
+		font-size: 14px;
+	}
+	.cost-learning-slider__el ul {
+		display: block;
+	}
+	.cost-learning-slider__additional-fee ul li {
+		font-size: 12px;
+	}
+	.cost-learning-slider__additional-fee {
+		line-height: 18px;
+	}
+	.cost-learning-slider-wrap .slider-next, 
+	.cost-learning-slider-wrap .slider-prev {
+		width: 45px;
+    height: 36px;
+		bottom: -56px;
+		border: 1px solid rgba(255, 255, 255, .3);
+		top: inherit;
+	}
+	.cost-learning-slider-wrap .slider-next {
+		right: 0;
+		background-size: 20%;
+    border-radius: 0 4px 4px 0;
+	}
+	.cost-learning-slider-wrap .slider-prev {
+		left: inherit;
+		right: 44px;
+		background-size: 20%;
+    border-radius: 4px 0 0 4px;
+	}
+	/* - - - part-learning - - - */
+	.part-learning {
+		padding-top: 45px;
+		padding-bottom: 50px;
+	}
+	.part-learning h2 {
+		margin-bottom: 16px;
+	}
+	.part-learning li {
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 24px;
+	}
+	/* - - - IYC-center - - - */
+	.IYC-center {
+		padding-top: 40px;
+		padding-bottom: 37px;
+	}
+	.IYC-center-inner {
+		display: block;
+	}
+	.IYC-center__video {
+		margin: 0 auto;
+    max-width: 528px;
+	}
+	.IYC-center__info {
+		padding-left: 0;
+    max-width: 540px;
+    margin: 0 auto;
+    padding-top: 23px;
+	}
+	.IYC-center__title {
+		font-size: 18px;
+    margin-bottom: 12px;
+	}
+	.IYC-center__title:after {
+		display: none;
+	}
+	.IYC-center__txt {
+		font-size: 14px;
+    line-height: 21px;
+	}
+	/* - - - schedule - - - */
+	.schedule {
+    padding-top: 45px;		
+		padding-bottom: 7px;
+	}
+	.schedule h2 {
+		margin-bottom: 16px;
+	}
+	.google-calendar {
+		margin-top: 28px;
+	}
+	/* - - - our-instructors - - - */
+	.instructors__learning-page {
+		padding-top: 36px;
+		padding-bottom: 50px;
+	}
+	.our-instructors > p {
+		font-size: 14px;
+    line-height: 21px;
+	}
+	.employers-wrap {
+		margin-top: 22px !important;
+	}
+	.employers {
+		margin-left: -5px;
+    margin-right: -5px;
+    display: block;
+		overflow: hidden;
+    margin-bottom: -10px;
+	}
+	.employers__el {
+    width: 33.333333%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+	}
+	.employers__person {
+		border-radius: 5px 5px 0 0;
+		height: 261px;
+	}
+	.employers__person-img {
+		width: 126px;
+    height: 126px;
+		margin-bottom: 8px;
+	}
+	.employers__person-img img {
+    width: 122px;
+    height: 122px;
+	}
+	.employers__person-name {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+	.employers__person-title {
+		font-size: 12px;
+	}
+	/* - - - why - - - */
+	.why {
+		padding: 44px 22px 48px 22px;
+	}
+	.why h2 {
+		margin-bottom: 14px;
+	}
+	.why__img {
+		max-height: 166px;
+	}
+	.why__author {
+    margin-top: 9px;
+    padding-top: 6px;
+	}
+	/* - - - photo-gallery - - - */
+	.photo-gallery {
+		padding-top: 45px;
+		padding-bottom: 15px;
+	}
+	.photo-gallery h2 {
+		margin-bottom: 24px;
+	}
+	/* - - - consultation - - - */
+	.consultation {
+		padding-top: 24px;
+		padding-left: 22px;
+		padding-right: 22px;
+		padding-bottom: 15px !important;
+	}
+	.consultation h3 {
+    margin-bottom: 24px;
+	}
+	/* - - - other-services - - - */
+	.other-services {
+		padding-top: 58px;
+	}
+	.other-services h2:after {
+		top: -5px;
+    width: 25px;
+    height: 15px;
+    left: -6px;
+    background-size: cover;
+	}
+	.other-services-slider .our-service-slider__prev {
+    left: 23px;
+	}
+	.other-services-slider .our-service-slider__next {
+    right: 23px;
+	}
+	.other-services__title {
+		font-size: 18px;
+		margin-bottom: 24px;
+	}
+	.other-services__el {
+		height: 252px;
+	}
+	/* - - - - - - Аренда яхт - - - - - - */
+	/* - - - - - - Продажа яхт - - - - - - */
+	/* - - - sale-filter - - - */
+	.sale-filter {
+		margin-top: -7px;
+		margin-bottom: 22px;
+	}
+	.sale-filter__wrap.js-calculated {
+		flex-wrap: wrap;
+	}
+	.sale-filter__column {
+		margin-right: 50px;
+    width: 160px;
+	}
+	.sale-filter__column:nth-child(3n) {
+		margin-right: 0;
+	}
+	.sale-filter + p {
+		font-size: 14px;
+    line-height: 21px;
+	}
+	.sale-catalog__el {
+		width: calc(50% - 15px);
+	}
+	.sale-catalog__title {
+		line-height: 17px;
+    font-size: 15px;
+	}
+	/* - - - pagination - - - */
+	.pagination {
+		margin-bottom: 20px;
+		clear: both;
+	}
+	/* - - - - - - Карточка товара - - - - - - */
+	/* - - - card - - - */
+	.card {
+    padding-bottom: 6px;
+	}
+	.card-inner {
+		display: block;
+    margin-right: -10px;
+    margin-left: -10px;
+    overflow: hidden;
+	}
+	.card-picture {
+		width: 58.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    float: left;
+	}
+	.card-inner .card-picture > img {
+		margin-right: 0;
+	}
+	.card-picture .card__consultation {
+		display: block;
+    padding-left: 0;
+    padding-top: 0;
+	}
+	.card-picture .card__consultation-title {
+		margin-top: 11px;
+    font-size: 18px;
+    margin-bottom: 5px;
+	}
+	.card__consultation p {
+		float: left;
+    max-width: 50%;
+		font-size: 12px;
+	}
+	.card__consultation .more-btn {
+		float: right;
+    width: 176px;
+    margin-left: 8px;
+    font-size: 12px;
+    padding-right: 37px;
+	}
+	.card-info {
+		float: left;
+    display: block;
+    width: 41.66667%;
+    padding-left: 10px;
+    padding-right: 10px;
+	}
+	.card__description {
+		margin-top: 0;
+	}
+	.card__title {
+		font-size: 18px;
+    line-height: 22px;
+		margin-top: -2px;
+		margin-bottom: 11px;
+	}
+	.card__features {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.card__features-title {
+		font-size: 15px;
+		margin-bottom: 6px;
+	}
+	.card__features ul {
+		column-count: 1;
+    font-size: 13px;
+    line-height: 21px;
+	}
+	.card__features li {
+    margin-bottom: 0px;
+	}
+	.card-advanced-info {
+		display: block;
+	}
+	.card__docs-title {
+		margin-top: 8px;
+    margin-bottom: 8px;
+	}
+	.card-info .card__consultation {
+		display: none;
+	}
+	/* - - - seo-text - - - */
+	.seo-text {
+		clear: both;
+	}
+	.seo-text.title_simple h2 {
+		padding-left: 0;
+	}
+	/* - - - - - - Мероприятия - - - - - - */
+	/* - - - events - - - */
+	.events-inner {
+		display: block;
+    margin-right: -10px;
+		overflow: hidden;
+	}
+	.events-inner + .pagination {
+		padding-top: 17px;
+    margin-bottom: 15px;
+	}
+	.events-inner .events-el__info {
+		padding-top: 14px;
+		padding-left: 20px;
+	}
+	.events-inner .events-el__title {
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 9px;
+	}
+	.events .events-el {
+		margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+	}
+	/* - - - - - - Мероприятия (подробнее) - - - - - - */
+	/* - - - article - - - */
+	.article {
+		padding-right: 22px;
+    padding-left: 22px;
+		margin-top: -9px;
+		padding-bottom: 33px;
+	}
+	.article p {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 21px;
+	}
+	.article img {
+		margin-top: 35px;
+    margin-bottom: 23px;
+	}
+	/* - - - nearest-events - - - */
+	.article + .nearest-events {
+		background: linear-gradient(#F47B4B 135px, #FFF 135px);
+	}
+	.nearest-events h2:after {
+		left: initial !important;
+		height: 25px;
+		top: -1px;
+	}
 }

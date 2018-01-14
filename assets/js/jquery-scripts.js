@@ -51,12 +51,23 @@ $(document).ready(function () {
         arrows: true
 			});
 		}
-
-    $('.cost-learning-slider').slick({
+		
+		if(document.documentElement.clientWidth > 768) {
+			$('.cost-learning-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false
-    });
+			});
+		}    
+		
+		if(document.documentElement.clientWidth <= 768) {
+			$('.cost-learning-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+				rows: 2,
+        arrows: false
+			});
+		}
 
     //кастомное управление для cost-learning-slider
     $('.cost-learning-slider-wrap .slider-next').on('click', function() {
@@ -65,14 +76,27 @@ $(document).ready(function () {
     $('.cost-learning-slider-wrap .slider-prev').on('click', function() {
         $('.cost-learning-slider').slick('slickPrev');
     });
-
-    $('.other-services-slider').slick({
+		
+		if(document.documentElement.clientWidth > 768) {
+			$('.other-services-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         nextArrow: '<div class="our-service-slider__next"></div>',
         prevArrow: '<div class="our-service-slider__prev"></div>',
         arrows: true
-    });
+			});
+		}    
+		
+		if(document.documentElement.clientWidth <= 768) {
+			$('.other-services-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+				rows: 2,
+        nextArrow: '<div class="our-service-slider__next"></div>',
+        prevArrow: '<div class="our-service-slider__prev"></div>',
+        arrows: true
+			});
+		}
 
     //fancybox
     $('a.fancybox').fancybox({
@@ -108,6 +132,12 @@ $(document).ready(function () {
 			$(".nav-wrapper-mobile").slideToggle();
 			$('.header').toggleClass('header_dark');
 			$('.header').toggleClass('menu-open');
+		});
+		
+		//Открытие фиьтра
+		$(".js-filter-open").click(function() {
+			$(".sale-filter").slideToggle();
+			$(this).toggleClass('active');
 		});
 
 });

@@ -1,5 +1,5 @@
 @media only screen and (max-width : 768px) {
-	/* - - - - - - ������� - - - - - - */
+	/* - - - - - - Главная - - - - - - */
 	/* - - - header - - - */
 	.container {
 		padding-right: 15px;
@@ -468,7 +468,7 @@
     padding-left: 15px;
     width: 100%;
 	}
-	/* - - - - - - ������ ���������� - - - - - - */
+	/* - - - - - - Услуги разводящая - - - - - - */
 	/* - - - page-top - - - */
 	.page-top {
     height: 130px;
@@ -522,6 +522,567 @@
 	}
 	.seo-text {
     padding-top: 34px;
+	}
+	/* - - - - - - Обучение - - - - - - */
+	/* - - - help - - - */
+	.help__img {
+		display: none;
+	}
+	.help {
+    padding-bottom: 31px;
+	}
+	.help__banner {
+		width: 100%;
+    margin: 0;
+    padding: 25px 15px;
+    height: auto;
+	}
+	.help-banner__img {
+		display: block;
+    float: left;
+    margin-right: 12px;
+		margin-bottom: 15px;
+	}
+	.help-banner__img img {
+		max-width: 73px;
+	}
+	.help-banner__info {
+		text-align: left;
+    margin-top: 5px;
+	}
+	.help-banner__lnk {
+		clear: both;
+	}
+	.help-advantage {
+		flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+		padding-bottom: 10px;
+	}
+	.help-advantage__el {
+		display: block;
+		width: 50%;
+    float: left;
+    margin-bottom: 17px;
+    font-size: 12px;
+	}
+	.help-advantage__el img {
+		display: block;
+    margin: 0 auto;
+    max-width: 55px;
+    margin-bottom: 9px;
+	}
+	/* - - - cost-learning - - - */
+	.cost-learning {
+    padding-top: 34px;
+		padding-bottom: 25px;
+	}
+	.cost-learning h2 {
+		padding-left: 0;
+	}
+	.page-content h2:after {
+		display: none;
+	}
+	.cost-learning-slider {
+		margin-top: 19px;
+	}
+	.cost-learning-slider__el {
+		min-height: 315px;
+		padding: 25px 15px 18px 15px;
+	}
+	.cost-learning-slider__el-img {
+		height: 35px;
+    padding: 0;
+		display: block;
+		margin-bottom: 11px;
+		text-align: center;
+	}
+	.cost-learning-slider__el-img img {
+		max-width: 42px;
+    display: inline-block;
+    line-height: 35px;
+    vertical-align: middle;
+	}
+	.cost-learning-slider__title {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.cost-learning-slider__el ul {
+		height: auto;
+    display: block;
+		margin-bottom: 0;
+	}
+	.cost-learning-slider__el li {
+    font-size: 13px;
+    line-height: 21px;
+	}
+	.cost-learning-slider__el li:before {
+		top: 9px;
+	}
+	.cost-learning-slider__additional-fee {
+    font-size: 11px;
+    padding-top: 14px;
+    margin-top: 13px;
+	}
+	.cost-learning-slider__additional-fee ul li {
+		font-size: 11px;
+		line-height: 18px;
+	}
+	.cost-learning-slider-wrap .slider-next, 
+	.cost-learning-slider-wrap .slider-prev {
+		display: none;
+	}
+	.cost-learning-slider .slick-slide > div {
+		margin-bottom: 7px;
+	}
+	/* - - - part-learning - - - */
+	.part-learning {
+		padding-top: 34px;
+		padding-bottom: 29px;
+	}
+	.part-learning ol {
+		padding-left: 13px;
+	}
+	.part-learning h2 {
+		padding-left: 0;
+    text-align: center;
+    margin-bottom: 12px;
+		font-size: 18px;
+	}
+	.part-learning li {
+    margin-bottom: 10px;
+    line-height: 21px;
+	}
+	.part-learning__table {
+		display: none;
+	}
+	/* - - - IYC-center - - - */
+	.IYC-center__txt {
+    font-size: 13px;
+	}
+	.IYC-center__video iframe {
+    height: 159px;
+	}
+	.IYC-center__info {
+		padding-top: 21px;
+		line-height: 20px;
+	}
+	.IYC-center__title {
+		margin-bottom: 7px;
+	}
+	/* - - - schedule - - - */
+	.schedule {
+		padding-top: 34px;
+	}
+	.schedule h2 {
+		padding-left: 0;
+		margin-bottom: 12px;
+	}
+	.schedule p {
+		font-size: 14px;
+    line-height: 21px;
+	}
+	.google-calendar {
+    margin-top: 20px;
+	}
+	/* - - - our-instructors - - - */
+	.instructors__learning-page {
+		padding-top: 27px;
+	}
+	.instructors__learning-page h2 {
+		padding-left: 0;
+    display: block;
+    text-align: center;
+		font-size: 18px;
+		margin-bottom: 12px;
+	}
+	.employers__el {
+		width: 100%;
+		overflow: hidden;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+	.employers__person {
+		padding-top: 50px;
+    border-radius: 5px 0 0 5px;
+    width: 40%;
+    height: 190px;
+    float: left;
+	}
+	.employers__person-img {
+    width: 88px;
+    height: 88px;
+		margin-bottom: 0;
+	}
+	.employers__person-img img {
+    width: 84px;
+    height: 84px;
+	}
+	.employers__person .employers__person-name,
+	.employers__person .employers__person-title {
+		display: none;
+	}
+	.employers__contacts {
+		width: 60%;
+    height: 190px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #CCCCCC;
+    border-left: none;
+    align-items: flex-start;
+		float: left;
+		justify-content: baseline;
+		padding: 10px 10px 10px 18px;
+	}
+	.employers__contacts .employers__person-name {
+		display: block;
+		font-size: 13px;
+		color: #434C52;
+		text-align: left;
+		margin-bottom: 2px;
+	}
+	.employers__contacts .employers__person-title {
+		display: block;
+    font-size: 11px;
+    text-align: left;
+		color: #434C52;
+		height: auto;
+		margin-bottom: 12px;
+	}
+	.employers__link {
+		line-height: 19px;
+	}
+	/* - - - why - - - */
+	.why {
+    padding: 40px 15px 33px 15px;
+	}
+	.why h2 {
+		float: right;
+    width: 64%;
+    text-align: left;
+    padding-top: 13px;
+    line-height: 27px;
+	}
+	.why-inner {
+		display: block;
+	}
+	.why__img {
+		display: block;
+    width: 90px;
+    height: 107px;
+	}
+	.why__img img {
+		width: 100%;
+	}
+	.why__info {
+    padding-top: 17px;
+	}
+	.why__quote {
+    font-size: 12px;
+    line-height: 20px;
+	}
+	/* - - - photo-gallery - - - */
+	.photo-gallery {
+    padding-top: 34px;
+	}
+	.photo-gallery h2 {
+    margin-bottom: 20px;
+    padding-left: 0;
+	}
+	/* - - - consultation - - - */
+	.consultation {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px !important;
+	}
+	.consultation h3 {
+    margin-bottom: 21px;
+	}
+	.consultant {
+		padding: 25px 10px 22px 15px;
+    overflow: hidden;
+	}
+	.consultant__img {
+		width: 103px;
+    float: left;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 0;
+	}
+	.consultant__img > img {
+		border-radius: 50%;
+    margin-bottom: 17px;
+	}
+	.consultant__img .consultant__social {
+		display: block;
+		text-align: center;
+	}
+	.consultant__img .consultant__social a:last-of-type {
+		margin-right: 0;
+	}
+	.consultant__info {
+		padding-top: 5px;
+    float: left;
+    overflow: hidden;
+    width: calc(100% - 120px);
+	}
+	.consultant__title {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.consultant__position {
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+	.consultant__name {
+		margin-right: 0;
+    font-size: 13px;
+	}
+	.consultant__title .consultant__social {
+		display: none;
+	}
+	.consultant p {
+		font-size: 12px;
+	}
+	.consultant__phone {
+		margin-right: 0;
+	}
+	/* - - - other-services - - - */
+	.other-services {
+    padding-top: 44px;
+	}
+	.other-services h2 {
+		display: block;
+    padding-left: 0;
+    margin-bottom: 32px;
+	}
+	.other-services h2:after {
+		display: none;
+	}
+	.our-service-slider__next, 
+	.our-service-slider__prev {
+		display: none !important;
+	}
+	.other-services__el {
+    height: 210px;
+	}
+	.other-services__overlay {
+		padding-top: 20px;
+	}
+	.other-services__title {
+    font-size: 16px;
+    margin-bottom: 18px;
+	}
+	/* - - - - - - Аренда яхт - - - - - - */
+	/* - - - - - - Продажа яхт - - - - - - */
+	/* - - - sale-filter - - - */
+	.js-filter-open {
+		display: block;
+		position: relative;
+		font-weight: 600;
+		padding-top: 13px;
+		padding-bottom: 12px;
+		padding-left: 15px;
+    padding-right: 15px;
+		margin-left: -15px;
+    margin-right: -15px;
+		background: #fff;
+	}
+	.js-filter-open:after {
+    position: absolute;
+    content: "";
+    background: url("../images/faq-arrow-black.png") center no-repeat;
+    top: 15px;
+    right: 12px;
+    width: 15px;
+    height: 20px;
+    transition: 0.3s;
+	}
+	.js-filter-open.active .question__title:after {
+    -webkit-transform: rotate(-179deg);
+    -ms-transform: rotate(-179deg);
+    transform: rotate(-179deg);
+    background-image: url("../images/faq-arrow-orange.png");
+	}
+	.sale-filter {
+		display: none;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.sale-filter + p {
+		margin-top: 23px;
+	}
+	.sale-filter__checkboxes {
+		padding-left: 15px;
+    padding-right: 15px;
+		padding-bottom: 12px;
+		padding-top: 0;
+	}
+	.sale-filter__wrap.js-calculated {
+		display: block;
+    overflow: hidden;
+	}
+	.sale-filter__title {
+		display: none;
+	}
+	.sale-filter__column.js-calculated {
+		display: block;
+	}
+	.sale-filter__column {
+    margin-right: 0;
+    width: 100%;
+	}
+	.sale-filter__el {
+		display: block;
+    width: 45%;
+    float: left;
+    font-size: 13px;
+		margin-top: 0;
+    margin-bottom: 8px;
+	}
+	.sale-filter__el:nth-child(even) {
+		width: 55%;
+	}
+	.sale-filter__aside {
+		display: block;
+    border: none;
+    border-top: 1px solid #EDEDED;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0 10px 0;
+	}
+	.sale-catalog {
+		margin-top: 25px;
+	}
+	.sale-catalog__inner {
+    margin-left: 0;
+	}
+	.sale-catalog__el {
+    width: 100%;
+    margin-left: 0;
+		padding: 16px 15px 3px 15px;
+	}
+	.sale-catalog__title {
+		font-size: 14px;
+	}
+	/* - - - pagination - - - */
+	.pagination {
+		padding-top: 28px;
+		margin-bottom: 1px;
+	}
+	.pagination__prev, 
+	.pagination__next {
+		width: 38px;
+    height: 38px;
+		background-size: cover !important;
+	}
+	.pagination-el__link {
+		font-size: 14px;
+    width: 38px;
+    height: 38px;
+    min-width: 1px;
+    line-height: 38px;
+	}
+	/* - - - - - - Карточка товара - - - - - - */
+	/* - - - card - - - */
+	.card {
+    padding-top: 20px;
+		padding-bottom: 25px;
+	}
+	.card-picture {
+		width: 100%;
+    float: none;
+	}
+	.card-inner .card-picture > img {
+		margin-bottom: 12px;
+	}
+	.card-picture .card__title {
+		display: block;
+		margin-bottom: 16px;
+	}
+	.card-picture .card__consultation {
+		display: none;
+	}
+	.card-info {
+		float: none;
+    width: 100%;
+	}
+	.card__description .card__title {
+		display: none;
+	}
+	.card__features ul {
+		margin-bottom: 0;
+	}
+	.card-info .card__consultation {
+		display: block;
+    border-top: 1px solid #DEDEDE;
+    margin-top: 26px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+	.card__consultation-title {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.card__consultation p {
+		font-size: 12px;
+    line-height: 18px;
+    max-width: 83%;
+    float: none;
+	}
+	.card__consultation .more-btn {
+    float: none;
+    width: 177px;
+    padding-right: 46px;
+    margin-left: 0;
+	}
+	.card__docs-title {
+		margin-top: 5px;
+    font-size: 15px;
+	}
+	/* - - - - - - Мероприятия - - - - - - */
+	/* - - - events - - - */
+	.events .events-el {
+		width: 100%;
+	}
+	.events-inner .events-el__info {
+		padding: 9px 14px 12px 14px;
+	}
+	.events-inner .events-el__title {
+		font-size: 14px;
+	}
+	.events-inner .events-el__date {
+    font-size: 11px;
+		padding-left: 17px;
+	}
+	.events-inner .events-el__date:before {
+		width: 11px;
+    height: 11px;
+		top: 2px;
+    background-size: cover;
+	}
+	.events-inner + .pagination {
+    padding-top: 10px;
+	}
+	/* - - - - - - Мероприятия (подробнее) - - - - - - */
+	/* - - - article - - - */
+	.article {
+    padding-right: 15px;
+    padding-left: 15px;
+		padding-bottom: 28px;
+	}
+	.article p {
+		margin-bottom: 7px;
+	}
+	.article img {
+    margin-top: 27px;
+    margin-bottom: 16px;
 	}
 }
 
