@@ -1026,4 +1026,125 @@
 	.faqs .question__title {
 		font-size: 14px;
 	}
+	/* - - - - - - Новости - - - - - - */
+	/* - - - news - - - */
+	.new-inner {
+		margin-right: -10px;
+	}
+	.news .news__el {
+		flex-basis: 50%;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+	}
+	.news .news-el-info {
+		padding-bottom: 18px;
+	}
+	.news .news__title {
+		font-size: 14px;
+    line-height: 19px;
+		height: 60px;
+		margin-bottom: 10px;
+	}
+	.news + .pagination {
+		padding-top: 22px;
+	}
+	/* - - - - - - Новости (подробнее) - - - - - - */
+	/* - - - article - - - */
+	.article .article__date {
+		margin-top: 9px;
+    margin-bottom: 14px;
+	}
+	/* - - - - - - Справочник яхстмена - - - - - - */
+	/* - - - guide - - - */
+	.guide-item img {
+    margin-right: 21px;
+	}
+	/* - - - - - - Контакты - - - - - - */
+	/* - - - map-wrap - - - */
+	.contacts {
+		margin-top: -50px;
+	}
+	.contacts .map-wrap {
+		height: 416px;
+		margin-bottom: 42px;
+	}
+	.map-contacts {
+		padding-left: 28px;
+    margin-right: 0;
+    flex-basis: 38.166667%;
+		height: 416px;
+		padding-top: 31px;
+    padding-bottom: 30px;
+		background-size: 80%;
+	}
+	.map-contacts__contacts {
+		margin-top: 7px;
+    margin-bottom: 14px;
+	}
+	.map-contacts__contacts a {
+		line-height: 24px;
+		font-size: 14px;
+	}
+	.map-contacts__coordinates {
+		margin-top: 10px;
+    font-size: 14px;
+	}
+	.contacts .our-instructors {
+		margin-top: 39px;
+	}
+	.contacts .our-instructors h2 {
+		margin-bottom: 5px;
+	}
+	.map-contacts .more-btn-dark {
+		font-size: 14px;
+    padding-right: 47px;
+	}
+	.contacts .map {
+		width: 61.833333%;
+		height: 416px;
+	}
+	.contacts p {
+		font-size: 14px;
+    line-height: 21px;
+	}
+	.map-contacts__title {
+		font-size: 14px;
+	}
+	.map-contacts__address {
+		margin-top: 7px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 17px;
+	}
+	/* - - - - - - Карта сайта - - - - - - */
+	/* - - - sitemap - - - */
+	.sitemap.container {
+		width: auto;
+    margin-right: 22px;
+    margin-left: 22px;
+	}
+	.sitemap > ul > li {
+		padding: 11px 26px;
+	}
+	.sitemap a {
+		font-size: 14px;
+	}
+	/* - - - - - - 404 - - - - - - */
+	/* - - - error-page - - - */
+	.error-page {
+		padding-top: 70px;
+    padding-bottom: 176px;
+	}
+	.error-page-inner {
+		font-size: 204px;
+	}
+	.error-page__title {
+		font-size: 20px;
+	}
+	.error-page__return {
+		font-size: 20px;
+    margin-top: 7px;
+	}
 }

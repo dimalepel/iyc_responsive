@@ -131,5 +131,37 @@ $(document).ready(function () {
 			$(".sale-filter").slideToggle();
 			$(this).toggleClass('active');
 		});
+		
+		//Спойлер
+		$(function() {
+			$('.toogle-more').on('click', function () {
+				$(this).toggleClass('active');
+				$(this).siblings('.spoiler_block').toggleClass('active');
+				if ($(this).children().text() == 'Показать подробное описание') {
+						$(this).children().text('Скрыть подробное описание');
+						$(this).siblings('.spoiler_block').css({height: 'auto'});
+				}
+				else {
+						$(this).children().text('Показать подробное описание');
+						$(this).siblings('.spoiler_block').css({height: '80px'});
+				}
+      });
+		});
 
+		//Ограничить вывод инструктаров
+		$(".js-emp-foo").ready(function () {
+				max = 3;
+				i = 0;
+				$(".js-emp-foo .employers__el").each(function() {
+						i += 1;
+						if(i > max) {
+								$(this).addClass("hide");
+						}
+				})
+		});
+		$('.js-emp-foo-show').on('click', function () {
+			$(".js-emp-foo .employers__el").removeClass('hide');
+			$(this).hide();
+		});
+		
 });

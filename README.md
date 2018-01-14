@@ -29,3 +29,17 @@
 Сотрудники: https://dimalepel.github.io/iyc_responsive/employers.html д п м
 
 Часто задаваемые вопросы: https://dimalepel.github.io/iyc_responsive/FAQs.html д п м
+
+Часто задаваемые вопросы: https://dimalepel.github.io/iyc_responsive/news.html д п м
+
+Новости: https://dimalepel.github.io/iyc_responsive/news.html д п м
+
+Новости (подробнее): https://dimalepel.github.io/iyc_responsive/news-more.html д п м
+
+Справочник яхстмена: https://dimalepel.github.io/iyc_responsive/guide.html д п м
+
+Контакты: https://dimalepel.github.io/iyc_responsive/contacts.html д п м
+
+Карта сайта: https://dimalepel.github.io/iyc_responsive/sitemap.html д п м
+
+404: https://dimalepel.github.io/iyc_responsive/404.html д п м
