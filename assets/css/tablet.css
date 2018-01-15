@@ -42,6 +42,7 @@
 	}
 	.js-tab-phones {
 		position: absolute;
+		display: block;
     text-transform: none;
     background-color: #fff;
     font-weight: 600;

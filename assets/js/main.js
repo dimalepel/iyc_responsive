@@ -132,7 +132,7 @@ ready(function () {
     toUp(600, '.up-btn');
     classAfterScroll(0, '.header', 'header_dark');
     dropHover('.recall-main-phone', '.recall-phones');
-    dropHover('.js-tab-drop-phone', '.js-tab-phones');
+   
     inputFilter();
 });
 
@@ -267,6 +267,48 @@ function sumInnerHeight(target) {
     console.log(height);
     return height;
 }
+
+/**
+ * hover and dropdown
+ * @param target string, events after hover on block
+ * @param dropBlock string
+ */
+function dropHover2(target, dropBlock) {
+    var phone = document.querySelector(target),
+        drop = document.querySelector(dropBlock),
+        isLeave = false;
+
+    
+
+    function leaveBlocks() {
+        setTimeout(function () {
+            if (isLeave) {
+                drop.style.height = 0;
+                drop.classList.remove('js-active');
+                phone.classList.remove('js-active');
+            }
+        }, 1000);
+    }
+
+    phone.onmouseenter = function () {
+        drop.style.height = sumInnerHeight(dropBlock) + 'px';
+        drop.classList.add('js-active');
+        phone.classList.add('js-active');
+        isLeave = false;
+    };
+    phone.onmouseleave = function () {
+        isLeave = true;
+        leaveBlocks();
+    };
+    drop.onmouseenter = function () {
+        isLeave = false;
+    };
+    drop.onmouseleave = function () {
+        isLeave = true;
+        leaveBlocks();
+    };
+}
+ dropHover2('.js-tab-drop-phone', '.js-tab-phones');
 
 /**
  * hover and dropdown
