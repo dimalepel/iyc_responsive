@@ -112,7 +112,7 @@ $(document).ready(function () {
 			helpers: {
 				overlay: {
 					css: {
-						'background': 'rgba(51,51,51,0.8)'
+						'background': 'rgba(0,0,0,0.7)'
           },
 					locked: false
 				}
@@ -162,6 +162,15 @@ $(document).ready(function () {
 		$('.js-emp-foo-show').on('click', function () {
 			$(".js-emp-foo .employers__el").removeClass('hide');
 			$(this).hide();
+		});
+		
+		//Проверка на наличие галочки фильтра
+		$('.sale-filter__el input[type="checkbox"]').click(function(event) {
+			if ($('.sale-filter__el input[type="checkbox"]').is(':checked')) {
+				$('.sale-filter').addClass('selected')
+			}else{
+				$('.sale-filter').removeClass('selected')
+			}
 		});
 		
 });

@@ -671,6 +671,7 @@ label {
   line-height: 24px;
   max-width: 705px;
   margin: 0 auto;
+	text-align: center;
 }
 /* - - - - - - - - - - - - - - - - our-service - - - - - - - - - - - - - - - - */
 .our-service {
@@ -680,6 +681,13 @@ label {
 }
 .our-service .slick-current .our-service-slider__el-title {
   border-right: 1px solid #EFF1F2;
+}
+.our-service-slider__el-title .more-btn:hover {
+	color: #EB6835;
+}
+.our-service-slider__el-title .more-btn:hover:after {
+    background: url(../images/more-btn-dark-orange.png);
+    background-size: contain;
 }
 .our-service h2 {
   display: inline-block;
@@ -2220,6 +2228,13 @@ a.breadcrumbs__link:after {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.sale-filter.selected .sale-filter__aside .sale-filter__label {
+	background: linear-gradient(to right, rgba(235, 104, 53, 0.7) 2px, transparent 2px) 0 bottom repeat-x;
+	background-size: 4px 1px;
+}
+.sale-filter.selected .sale-filter__aside input[type="reset"] {
+	color: #EB6835;
+}
 .sale-filter__checkboxes {
   padding: 13px 25px 24px;
   line-height: normal;
@@ -2274,13 +2289,14 @@ a.breadcrumbs__link:after {
   display: inline;
   background: none;
   font-size: 0.75rem;
-  color: #EB6835;
+ /* color: #EB6835; */
+	color: #9CA4A9;
   font-weight: bold;
   padding: 0;
   cursor: pointer;
 }
 .sale-filter__label {
-  background: linear-gradient(to right, rgba(235, 104, 53, 0.7) 2px, transparent 2px) 0 bottom repeat-x;
+  background: linear-gradient(to right, rgba(156, 164, 169, 0.7) 2px, transparent 2px) 0 bottom repeat-x;
   background-size: 4px 1px;
   line-height: 1rem;
 }
@@ -2327,12 +2343,40 @@ a.breadcrumbs__link:after {
   flex-wrap: wrap;
 }
 .sale-catalog__el {
+	display: block;
   width: 392px;
   margin-left: 15px;
   margin-bottom: 15px;
   background: #fff;
   padding: 20px 20px 3px;
   border-radius: 5px;
+}
+.sale-catalog__pic-wr,
+.news__el-pic,
+.events-el__pic {
+	position: relative;
+}
+.sale-catalog__el .sale-catalog__pic-wr:before,
+.events-el .events-el__pic:before,
+.news__el .news__el-pic:before {
+	display: none;
+}
+.sale-catalog__el:hover .sale-catalog__pic-wr:before,
+.events-el:hover .events-el__pic:before,
+.news__el:hover .news__el-pic:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .4);
+}
+.sale-catalog__pic-wr img,
+.events-el__pic img,
+.news__el-pic img {
+	display: block;
 }
 .sale-catalog__description {
   margin-top: 5px;
@@ -2511,6 +2555,12 @@ a.breadcrumbs__link:after {
   flex-basis: 50%;
   padding-left: 12px;
   padding-top: 2px;
+}
+.card__consultation .more-btn:hover {
+	color: #EB6835;
+}
+.card__consultation .more-btn:hover:after {
+	background: url(../images/more-btn-dark-orange.png);
 }
 .card__consultation p {
   line-height: normal;
@@ -3011,6 +3061,28 @@ a.breadcrumbs__link:after {
 	border: 1px solid #DEDEDE;
 	border-radius: 2px;
 	padding: 10px 12px;
+	font-family: 'Open Sans';
+}
+.g-modal-win textarea.form-input {
+	height: 124px;
+	font-size: 13px;
+	line-height: 18px;
+}
+.form-input *::-webkit-input-placeholder {
+	color: #808487;
+	opacity: 1;
+}
+.form-input *:-moz-placeholder {
+	color: #808487;
+	opacity: 1;
+}
+.form-input *::-moz-placeholder {
+	color: #808487;
+	opacity: 1;
+}
+.form-input *:-ms-input-placeholder {
+	color: #808487;
+	opacity: 1;
 }
 .form-submit {
 	height: 40px;
@@ -3075,6 +3147,12 @@ a.breadcrumbs__link:after {
 	display: none;
 }
 .guide__description .toogle-more {
+	display: none;
+}
+.h-inline.other-services h2:after {
+	top: -8px;
+}
+.js-emp-foo-show {
 	display: none;
 }
 
