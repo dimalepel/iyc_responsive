@@ -132,6 +132,7 @@ ready(function () {
     toUp(600, '.up-btn');
     classAfterScroll(0, '.header', 'header_dark');
     dropHover('.recall-main-phone', '.recall-phones');
+    dropHover('.js-tab-drop-phone', '.js-tab-phones');
     inputFilter();
 });
 
