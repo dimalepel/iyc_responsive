@@ -28,6 +28,7 @@
 	.header-nav {
 		margin-left: 0;
     margin-right: 0;
+		padding-top: 18px;
 	}
 	.header-nav > ul {
 		display: block;
@@ -73,11 +74,13 @@
 		padding-left: 0;
     text-align: left;
     font-size: 14px;
-		margin-bottom: 20px;
+		margin-bottom: 24px;
 		padding-left: 0;
+		margin-top: 4px;
 	}
 	.recall-phones a {
 		display: block;
+		line-height: 25px;
 	}
 	.recall-link {
 		display: inline-block;
@@ -99,6 +102,7 @@
 		padding-left: 30px;
 		font-size: 14px;
 		height: auto;
+		line-height: 40px;
 	}
 	.header-nav ul ul li a {
 		font-size: 14px;
@@ -209,6 +213,7 @@
     display: block;
 		color: #fff;
 		height: 88px;
+		background: transparent;
 	}
 	.our-service-slider__el-title h3 {
     font-size: 13px;
@@ -330,15 +335,6 @@
 		display: none;
 	}
 	/* - - - faqs - - - */
-	.faqs__index-page {
-    padding-top: 34px;
-	}
-	.faqs__index-page h2 {
-    margin-bottom: 20px;
-    max-width: 80%;
-    text-align: center;
-    letter-spacing: 1.1px;
-	}
 	.question__title {
     font-size: 15px;
     padding: 13px 35px 14px 14px;
@@ -479,7 +475,7 @@
     float: right;
 	}
 	.up-btn {
-		right: 0;
+		right: 15px;
 	}
 	/* - - - modal-form - - - */
 	.g-modal-win {
@@ -1367,6 +1363,20 @@
 	.error-page__return {
 		font-size: 14px;
     text-align: center;
+	}
+	/* - - - faqs - - - */
+	.faqs__index-page {
+    padding-top: 34px;
+		margin-top: 0;
+	}
+	.faqs__index-page h2 {
+    margin-bottom: 20px;
+    max-width: 80%;
+    text-align: center;
+    letter-spacing: 0;
+	}
+	.faqs__index-page.faqs .questions-wrap {
+		margin-top: 0px;
 	}
 }
 
