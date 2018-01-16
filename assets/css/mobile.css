@@ -1,4 +1,4 @@
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 	/* - - - - - - Главная - - - - - - */
 	/* - - - header - - - */
 	.container {
@@ -87,6 +87,9 @@
     border-radius: 16px;
     background: transparent;
     font-size: 12px;
+	}
+	.recall-link span {
+		display: none;
 	}
 	.recall-phones:before {
 		display: none;
@@ -474,6 +477,9 @@
 	}
 	.developer img {
     float: right;
+	}
+	.up-btn {
+		right: 0;
 	}
 	/* - - - modal-form - - - */
 	.g-modal-win {

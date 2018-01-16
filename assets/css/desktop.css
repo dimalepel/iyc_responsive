@@ -392,6 +392,7 @@ label {
   background-size: 4px 1px;
   position: relative;
   top: -6px;
+	margin: 0 auto;
 }
 .header-nav {
   -webkit-flex: 1 1 auto;
@@ -2789,7 +2790,7 @@ a.breadcrumbs__link:after {
   -webkit-flex: 0 0 432px;
   -ms-flex: 0 0 432px;
   flex: 0 0 432px;
-  margin-right: 7px;
+  margin-right: 0;
   color: #fff;
   padding: 38px 10px 10px 117px;
 }

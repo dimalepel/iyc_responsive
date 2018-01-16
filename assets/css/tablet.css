@@ -42,8 +42,7 @@
 	}
 	.js-tab-phones {
 		position: absolute;
-		display: block;
-    text-transform: none;
+		display: none;
     background-color: #fff;
     font-weight: 600;
     color: #434C52;
@@ -51,9 +50,7 @@
     padding: 0 22px;
     letter-spacing: 0.04rem;
     border-radius: 0 0 0 5px;
-    height: 0;
     overflow: hidden;
-    transition: 0.2s;
     opacity: 1;
     /*-webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);

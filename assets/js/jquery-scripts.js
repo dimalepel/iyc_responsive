@@ -173,4 +173,9 @@ $(document).ready(function () {
 			}
 		});
 		
+		//Телефоны на планшете		
+		$('.js-tab-drop-phone').click(function(event) {
+			$(this).siblings('.js-tab-phones').slideToggle();
+		});
+		
 });

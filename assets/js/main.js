@@ -308,7 +308,7 @@ function dropHover2(target, dropBlock) {
         leaveBlocks();
     };
 }
- dropHover2('.js-tab-drop-phone', '.js-tab-phones');
+ //dropHover2('.js-tab-drop-phone', '.js-tab-phones');
 
 /**
  * hover and dropdown
