@@ -55,6 +55,7 @@
 		border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 		margin-bottom: 0;
+		border-top: 1px solid rgba(255, 255, 255, 0.15);
 	}
 	.recall {
 		display: block;
@@ -109,6 +110,7 @@
 		color: rgba(255, 255, 255, .7);
 		height: auto;
 		font-weight: 400;
+		line-height: 39px;
 	}
 	.header-nav > ul > li,
 	.header-nav > ul > li:hover {
@@ -136,6 +138,19 @@
 	}
 	.header.menu-open {
 		background-color: rgba(3, 3, 3, 0.9);
+	}
+	.header-nav > ul > li:nth-child(2) {
+		margin-top: 10px;
+    line-height: 19px;
+	}
+	.header-nav > ul > li:nth-child(2) {
+		 line-height: 16px;
+	}
+	.header-nav > ul > li:nth-child(5) {
+		 line-height: 17px;
+	}
+	.header-nav > ul > li:last-of-type {
+		margin-top: 12px;
 	}
 	/* - - - main-slider - - - */
 	.main-slider__el-title {
