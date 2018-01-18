@@ -149,6 +149,9 @@
 	.header-nav > ul > li:nth-child(5) {
 		 line-height: 17px;
 	}
+	.header-nav > ul > li:nth-child(5) ul {
+		margin-top: 10px;
+	}
 	.header-nav > ul > li:last-of-type {
 		margin-top: 12px;
 	}
@@ -944,6 +947,7 @@
     border-radius: 0;
 		margin-bottom: 0;
 		margin-top: 0;
+		padding-top: 12px;
 	}
 	.sale-filter + p {
 		margin-top: 23px;
