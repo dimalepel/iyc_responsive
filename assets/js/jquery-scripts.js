@@ -28,7 +28,7 @@ $(document).ready(function () {
         prevArrow: '<div class="photo-gallery-slider__prev"></div>',
         arrows: true
 			});
-		} else if (document.documentElement.clientWidth <= 768){
+		} else if (document.documentElement.clientWidth < 768){
 			$('.photo-gallery-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -48,7 +48,7 @@ $(document).ready(function () {
 			});
 		}
 		
-		if(document.documentElement.clientWidth > 768) {
+		if(document.documentElement.clientWidth >= 768) {
 			$('.cost-learning-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
