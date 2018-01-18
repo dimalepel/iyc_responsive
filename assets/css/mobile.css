@@ -1397,6 +1397,9 @@
 	.faqs__index-page.faqs .questions-wrap {
 		margin-top: 0px;
 	}
+	.main-slider__el-title {
+	margin-top: calc(33vh);
+	}
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0by5jc3MifQ== */

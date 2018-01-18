@@ -90,14 +90,16 @@
 	}
 	/* - - - main-slider - - - */
 	.main-slider {
-		height: 420px;
+		/*height: 420px;*/
+		height: 100vh;
 	}
 	.main-slider__next, 
 	.main-slider__prev {
 		display: none !important;
 	}
 	.main-slider__el {
-		height: 420px;
+		/*height: 420px;*/
+		height: 100vh;
 	}
 	.main-slider__el-title {
 		margin-top: 100px;
@@ -1198,5 +1200,8 @@
 	.error-page__return {
 		font-size: 20px;
     margin-top: 7px;
+	}
+	.main-slider__el-title {
+	margin-top: calc(33vh);
 	}
 }
