@@ -219,7 +219,7 @@
 		width: 25px;
     height: 25px;
 		right: 15px;
-    background-size: contain;
+    background-size: contain !important;
 	}
 	/* - - - selling - - - */
 	.selling {

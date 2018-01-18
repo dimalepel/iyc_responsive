@@ -9,7 +9,7 @@ $(document).ready(function () {
         dots: true
     });
 
-		if(document.documentElement.clientWidth > 768) {
+		if(document.documentElement.clientWidth >= 768) {
 			$('.our-service-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
